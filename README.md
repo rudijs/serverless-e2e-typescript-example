@@ -1,8 +1,10 @@
 # serverless-e2e-typescript-example
 
-Code repository for the blog post on end to end testing aws serverless api's with Typescript and Jest.
+Code repository for the [blog post](https://rudijs.github.io/2020-04/aws-serverless-typescript-end-to-end-testing-with-jest/) on end to end testing aws serverless api's with Typescript and Jest.
 
 If you find any typo's or cut-n-paste errors or mistakes please let me know.
+
+Please also comment if you have any improvement suggestions.
 
 The follow steps and examples was created on April 15th 2020 using:
 
@@ -252,3 +254,8 @@ Serverless: Checking Stack removal progress...
 .............
 Serverless: Stack removal finished...
 ```
+
+## Credits
+
+- [Folder structure suggestion for sequential test execution: @sahil5695](https://github.com/facebook/jest/issues/6194#issuecomment-419837314)
+- [Jest Project Documentation](https://jestjs.io/docs/en/configuration)
