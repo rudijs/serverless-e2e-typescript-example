@@ -4,6 +4,18 @@ Code repository for the blog post on end to end testing aws serverless api's wit
 
 If you find any typo's or cut-n-paste errors or mistakes please let me know.
 
+The follow steps and examples was created on April 15th 2020 using:
+
+- Node v12.16.1
+- and Serverless Framework versions:
+
+```
+Framework Core: 1.67.3
+Plugin: 3.6.6
+SDK: 2.3.0
+Components: 2.29.1
+```
+
 ## Setup from scratch
 
 The following steps are all command line on a Unix platorm, please adjust for your platorm where required.
@@ -225,4 +237,18 @@ Tests:       1 passed, 1 total
 Snapshots:   0 total
 Time:        1.001s
 Ran all test suites matching /e2e/i.
+```
+
+Finally lets clean up with:
+
+`npx serverless --stage dev remove`
+
+```
+npx serverless --stage dev remove
+Serverless: Getting all objects in S3 bucket...
+Serverless: Removing objects in S3 bucket...
+Serverless: Removing Stack...
+Serverless: Checking Stack removal progress...
+.............
+Serverless: Stack removal finished...
 ```
